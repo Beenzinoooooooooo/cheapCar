@@ -12,7 +12,7 @@
 	<jsp:include page="../../common/adminMain.jsp"></jsp:include>
 	<c:if test="${ loginUser ne null and loginUser.memberStatus eq 'A' }">
 		<div class="outer" id="salemonth">
-		
+		<h1>branchTest</h1>
 			<div id="top11">
 				<label for="searchCar" style="margin: 0px 15px;">차량 번호 : </label>
 				<input type="text" class="form-control" id="searchCar" placeholder="조회하실 차량 번호를 입력해주세요." name="searchCar" style="width: 300px;">
